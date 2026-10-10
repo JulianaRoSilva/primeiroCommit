@@ -1,0 +1,27 @@
+git init: transformar a pasta em um repositório
+
+git status: traz o status do git
+
+git add NOME_ARQUIVO_EXTENSAO: traz o arquivo para o repositório (Esse tudo bem mandar tudo de uma vez?)
+git commit -m "mensagem": finaliza as alterações do código para gerar um 'log'. Ele vai mandar todos os arquivos pendentes que vai aparecer em git status
+
+git log: ver todos os commits realizados no repositório
+git log --oneline: versão do log simplificada
+
+git remote add origin URL_PASTA_GITHUB
+
+git branch -M main (Tirar o nome do master em main)
+git push -u origin main (origin é o mesmo nome que vamos usar no projeto todo, faz link com o 'git remote'): envia os arquivos para a nuvem
+
+- Origin é o apelido pra minha conexão entre repositório local e nuvem
+
+LINHA DO TEMPO
+modifica > coloca em um status de espera > realmente coloca o arquivo pronto 
+O ideal é que eu faça o git add para Cada arquivo separadamente pra eu poder ter controle de versionamento e mensagem especifica do git commit
+
+TRAZER ARQUIVOS DA NUVEM PARA A PASTA LOCAL
+- git pull origin main
+
+PULL PUXA
+PUSH ENVIA
+
